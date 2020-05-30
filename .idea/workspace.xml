@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="78ed2792-4781-45a0-ba99-c3f67fee79ee" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="dataStructure" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cCsxVaEgD5q7CDHaqNC1HjNNv9" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager" selected="Application.TestEightQueen">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.Test" />
+      <module name="dataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.singleLinkedList.Test" />
+      <module name="dataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedList.singleLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestEightQueen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.TestEightQueen" />
+      <module name="dataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.niBolanCalculator.test" />
+      <module name="dataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.niBolanCalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.calculator.test" />
+      <module name="dataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestEightQueen" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.test (1)" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78ed2792-4781-45a0-ba99-c3f67fee79ee" name="Default Changelist" comment="" />
+      <created>1590044155997</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590044155997</updated>
+      <workItem from="1590044157276" duration="796000" />
+      <workItem from="1590065384035" duration="3863000" />
+      <workItem from="1590108599355" duration="47000" />
+      <workItem from="1590108726835" duration="3115000" />
+      <workItem from="1590117421252" duration="8000" />
+      <workItem from="1590118528549" duration="4934000" />
+      <workItem from="1590130739248" duration="6208000" />
+      <workItem from="1590196230844" duration="9686000" />
+      <workItem from="1590214417609" duration="606000" />
+      <workItem from="1590239622370" duration="20000" />
+      <workItem from="1590282570601" duration="6785000" />
+      <workItem from="1590290232809" duration="96000" />
+      <workItem from="1590321950701" duration="4000" />
+      <workItem from="1590371041761" duration="8033000" />
+      <workItem from="1590454789235" duration="15000" />
+      <workItem from="1590546233171" duration="11809000" />
+      <workItem from="1590629660726" duration="2547000" />
+      <workItem from="1590653781962" duration="8888000" />
+      <workItem from="1590804561881" duration="9467000" />
+      <workItem from="1590831835003" duration="1215000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590067981594">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590067981594" />
+    <state x="721" y="169" key="#com.intellij.ide.util.MemberChooser" timestamp="1590372906508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="721" y="169" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590372906508" />
+    <state width="478" height="582" key="DebuggerActiveHint" timestamp="1590207779738">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="478" height="582" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1590207779738" />
+    <state width="1865" height="308" key="GridCell.Tab.0.bottom" timestamp="1590828783657">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590828783657" />
+    <state width="1865" height="308" key="GridCell.Tab.0.center" timestamp="1590828783657">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="308" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590828783657" />
+    <state width="1865" height="308" key="GridCell.Tab.0.left" timestamp="1590828783657">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="308" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590828783657" />
+    <state width="1865" height="308" key="GridCell.Tab.0.right" timestamp="1590828783657">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="308" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590828783657" />
+    <state width="1865" height="308" key="GridCell.Tab.1.bottom" timestamp="1590828783657">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="308" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590828783657" />
+    <state width="1865" height="308" key="GridCell.Tab.1.center" timestamp="1590828783657">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="308" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590828783657" />
+    <state width="1865" height="308" key="GridCell.Tab.1.left" timestamp="1590828783657">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="308" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590828783657" />
+    <state width="1865" height="308" key="GridCell.Tab.1.right" timestamp="1590828783657">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="308" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590828783657" />
+    <state x="577" y="303" key="com.intellij.ide.util.TipDialog" timestamp="1590831834868">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="577" y="303" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590831834868" />
+    <state x="532" y="237" key="run.anything.popup" timestamp="1590206008147">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="532" y="237" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590206008147" />
+    <state x="539" y="4" width="840" height="1035" key="search.everywhere.popup" timestamp="1590828617888">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="4" width="840" height="1035" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590828617888" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/队列/ArrayQueen.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/队列/ArrayQueen.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/niBolanCalculator/NiBolanCalculator.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/niBolanCalculator/NiBolanCalculator.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/Labyrinth.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/dataStructure$Test.ic" NAME="Test Coverage Results" MODIFIED="1590287547844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>LinkedList.singleLinkedList.*</FILTER>
+    </SUITE>
+  </component>
+</project>

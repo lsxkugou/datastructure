@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78ed2792-4781-45a0-ba99-c3f67fee79ee" name="Default Changelist" comment="" />
+    <list default="true" id="78ed2792-4781-45a0-ba99-c3f67fee79ee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dataStructure/META-INF/dataStructure.kotlin_module" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1cCsxVaEgD5q7CDHaqNC1HjNNv9" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
@@ -27,6 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -152,6 +159,7 @@
       <workItem from="1590653781962" duration="8888000" />
       <workItem from="1590804561881" duration="9467000" />
       <workItem from="1590831835003" duration="1215000" />
+      <workItem from="1590838608366" duration="17000" />
     </task>
     <servers />
   </component>
@@ -167,26 +175,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="721" y="169" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590372906508" />
+    <state x="489" y="44" key="CommitChangelistDialog2" timestamp="1590840522501">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="489" y="44" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590840522501" />
     <state width="478" height="582" key="DebuggerActiveHint" timestamp="1590207779738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="478" height="582" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1590207779738" />
-    <state width="1865" height="308" key="GridCell.Tab.0.bottom" timestamp="1590828783657">
+    <state width="1865" height="412" key="GridCell.Tab.0.bottom" timestamp="1590838625167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590828783657" />
-    <state width="1865" height="308" key="GridCell.Tab.0.center" timestamp="1590828783657">
+    <state width="1865" height="412" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590838625167" />
+    <state width="1865" height="412" key="GridCell.Tab.0.center" timestamp="1590838625167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="308" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590828783657" />
-    <state width="1865" height="308" key="GridCell.Tab.0.left" timestamp="1590828783657">
+    <state width="1865" height="412" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590838625167" />
+    <state width="1865" height="412" key="GridCell.Tab.0.left" timestamp="1590838625167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="308" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590828783657" />
-    <state width="1865" height="308" key="GridCell.Tab.0.right" timestamp="1590828783657">
+    <state width="1865" height="412" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590838625167" />
+    <state width="1865" height="412" key="GridCell.Tab.0.right" timestamp="1590838625167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="308" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590828783657" />
+    <state width="1865" height="412" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590838625167" />
     <state width="1865" height="308" key="GridCell.Tab.1.bottom" timestamp="1590828783657">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -203,10 +215,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1865" height="308" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590828783657" />
-    <state x="577" y="303" key="com.intellij.ide.util.TipDialog" timestamp="1590831834868">
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1590840538303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="577" y="303" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590831834868" />
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590840538303" />
+    <state x="577" y="303" key="com.intellij.ide.util.TipDialog" timestamp="1590840504375">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="577" y="303" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590840504375" />
     <state x="532" y="237" key="run.anything.popup" timestamp="1590206008147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -5,16 +5,15 @@ import java.util.Arrays;
 /**
  * @Author: longsx
  * @DateTime: 2020/5/31 10:29
- * @Description: 冒泡排序 时间复杂度 n^2 n为数据个数
+ * @Description: 冒泡排序 时间复杂度最大情况为 n^2 n为数据个数
  */
 public class BubleSort {
 
     /**
      * 排序方法
-     * @param array
-     * @return
-     * @Description:每次排序必然将未排序最大的值放到末尾，
-     * 一共排序n-1次
+     * @param array 数组
+     * @return array
+     * 最大时间复杂度n^2
      */
     static int[] sort(int [] array){
         //定义交换变量
@@ -33,7 +32,7 @@ public class BubleSort {
                 }
             }
             //若一次都没有交换过
-        if (flag==false){
+        if (!flag){
             break;
             }
         else {

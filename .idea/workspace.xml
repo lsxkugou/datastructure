@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="78ed2792-4781-45a0-ba99-c3f67fee79ee" name="Default Changelist" comment="1">
-      <change afterPath="$PROJECT_DIR$/src/sort/SelectSort.java" afterDir="false" />
+    <list default="true" id="78ed2792-4781-45a0-ba99-c3f67fee79ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/BubleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/BubleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/InsertSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +34,10 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -41,8 +48,11 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.InsertSortTest">
+  <component name="RunManager" selected="Application.ShellSortTest">
     <configuration name="BubleSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sort.BubleSortTest" />
       <module name="dataStructure" />
@@ -82,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.Test" />
+    <configuration name="ShellSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.ShellSortTest" />
       <module name="dataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,26 +105,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEightQueen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.TestEightQueen" />
+    <configuration name="zzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zzz" />
       <module name="dataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShellSortTest" />
+        <item itemvalue="Application.zzz" />
         <item itemvalue="Application.InsertSortTest" />
         <item itemvalue="Application.SelectSortTest" />
         <item itemvalue="Application.BubleSortTest" />
-        <item itemvalue="Application.TestEightQueen" />
-        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +167,13 @@
       <workItem from="1590838608366" duration="17000" />
       <workItem from="1590840504561" duration="221000" />
       <workItem from="1590887415593" duration="9409000" />
-      <workItem from="1591014475397" duration="5323000" />
+      <workItem from="1591014475397" duration="5383000" />
+      <workItem from="1591168283255" duration="725000" />
+      <workItem from="1591170451426" duration="806000" />
+      <workItem from="1591191303768" duration="840000" />
+      <workItem from="1591324122376" duration="1491000" />
+      <workItem from="1591524174359" duration="600000" />
+      <workItem from="1591581797476" duration="6073000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1590840556041</created>
@@ -186,7 +196,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590908290011</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="插入排序">
+      <created>1591021823988</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591021823988</updated>
+    </task>
+    <task id="LOCAL-00005" summary="插入排序">
+      <created>1591021849801</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591021849801</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,21 +233,22 @@
     <MESSAGE value="111" />
     <MESSAGE value="冒泡排序" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="插入排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="插入排序" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590067981594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590067981594" />
-    <state x="721" y="169" key="#com.intellij.ide.util.MemberChooser" timestamp="1590372906508">
+    <state x="721" y="169" key="#com.intellij.ide.util.MemberChooser" timestamp="1591324156092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="721" y="169" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590372906508" />
-    <state x="489" y="44" key="CommitChangelistDialog2" timestamp="1590921124171">
+    <state x="721" y="169" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591324156092" />
+    <state x="489" y="44" key="CommitChangelistDialog2" timestamp="1591021849194">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="489" y="44" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590921124171" />
+    <state x="489" y="44" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591021849194" />
     <state width="478" height="582" key="DebuggerActiveHint" timestamp="1590207779738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -232,46 +257,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="89" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590904941779" />
-    <state width="1848" height="260" key="GridCell.Tab.0.bottom" timestamp="1591019811957">
+    <state x="591" y="202" key="FileChooserDialogImpl" timestamp="1591589584580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1848" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591019811957" />
-    <state width="1848" height="260" key="GridCell.Tab.0.center" timestamp="1591019811957">
+    <state x="591" y="202" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591589584580" />
+    <state width="1848" height="241" key="GridCell.Tab.0.bottom" timestamp="1591589462185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1848" height="260" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591019811957" />
-    <state width="1848" height="260" key="GridCell.Tab.0.left" timestamp="1591019811956">
+    <state width="1848" height="241" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591589462185" />
+    <state width="1848" height="241" key="GridCell.Tab.0.center" timestamp="1591589462185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1848" height="260" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591019811956" />
-    <state width="1848" height="260" key="GridCell.Tab.0.right" timestamp="1591019811957">
+    <state width="1848" height="241" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591589462185" />
+    <state width="1848" height="241" key="GridCell.Tab.0.left" timestamp="1591589462185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1848" height="260" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591019811957" />
-    <state width="1848" height="305" key="GridCell.Tab.1.bottom" timestamp="1591019793292">
+    <state width="1848" height="241" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591589462185" />
+    <state width="1848" height="241" key="GridCell.Tab.0.right" timestamp="1591589462185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1848" height="305" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591019793292" />
-    <state width="1848" height="305" key="GridCell.Tab.1.center" timestamp="1591019793292">
+    <state width="1848" height="241" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591589462185" />
+    <state width="1848" height="305" key="GridCell.Tab.1.bottom" timestamp="1591588411424">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1848" height="305" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591019793292" />
-    <state width="1848" height="305" key="GridCell.Tab.1.left" timestamp="1591019793292">
+    <state width="1848" height="305" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591588411424" />
+    <state width="1848" height="305" key="GridCell.Tab.1.center" timestamp="1591588411424">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1848" height="305" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591019793292" />
-    <state width="1848" height="305" key="GridCell.Tab.1.right" timestamp="1591019793292">
+    <state width="1848" height="305" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591588411424" />
+    <state width="1848" height="305" key="GridCell.Tab.1.left" timestamp="1591588411424">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1848" height="305" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591019793292" />
+    <state width="1848" height="305" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591588411424" />
+    <state width="1848" height="305" key="GridCell.Tab.1.right" timestamp="1591588411424">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1848" height="305" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591588411424" />
+    <state x="312" y="0" key="SettingsEditor" timestamp="1591589590981">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="312" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591589590981" />
     <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1590908749356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590908749356" />
-    <state x="577" y="303" key="com.intellij.ide.util.TipDialog" timestamp="1591014475092">
+    <state x="577" y="303" key="com.intellij.ide.util.TipDialog" timestamp="1591581816767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="577" y="303" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591014475092" />
+    <state x="577" y="303" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591581816767" />
+    <state x="582" y="394" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1591589580502">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="582" y="394" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1591589580502" />
     <state x="532" y="237" key="run.anything.popup" timestamp="1591017090829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -311,8 +348,39 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sort/InsertSort.java</url>
-          <line>26</line>
+          <line>27</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/zzz.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/zzz.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sort/ShellSort.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/zzz.java</url>
+          <line>8</line>
+          <properties class="zzz" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/zzz.java</url>
+          <line>23</line>
+          <properties class="ccc" method="change">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

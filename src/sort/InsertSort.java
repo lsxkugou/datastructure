@@ -23,9 +23,13 @@ public class InsertSort {
             //array[i]为需要进行插入的元素
             for(int j=0;j<i;j++){
                 //当temp小于顺序序列中的元素时，插入到前一个元素里
+
                 int temp=array[i];
                 if(array[i]<array[j]){
                     //将i~j依次移动到前一个元素位置
+                    /**
+                     * 可以进行优化，在比较的时候就进行位移，这样就不用了重复去遍历 shell排序已优化
+                     */
                     for(int z=i;z>j;z--){
                         array[z]=array[z-1];
                     }

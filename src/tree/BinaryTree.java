@@ -38,25 +38,31 @@ public class BinaryTree {
 
     }
 
+    /**
+     * 重载方法
+     * @param id id
+     * @param data data
+     * @return 结果集
+     */
     public ArrayList<Node> search(int id,String data){
-        searchMthod(head,id,data);
+        search(head,id,data);
         return resultList;
     }
     /**
-     * 查找方法
+     * 查找方法 重载可以消除一个参数
      * @param node 节点
      * @param id 查找id
      * @param data 查找数据域
      */
-    public void searchMthod(Node node ,int id,String data){
+    public void search(Node node ,int id,String data){
         if(id==node.id||data.equals(node.data)){
             resultList.add(node);
         }
         if(node.left!=null){
-            searchMthod(node.left,id,data);
+            search(node.left,id,data);
         }
         if(node.right!=null){
-            searchMthod(node.right,id,data);
+            search(node.right,id,data);
         }
     }
 

@@ -24,7 +24,7 @@ public class BinaryTree {
                 node=node.left;
             }
 
-            //按照线索二叉树输出节点，一直到一个非叶子节点，即当前叶子节点的根
+            //按照线索二叉树输出节点，一直到一个非叶子节点，即当前叶子节点的根 记住，中序遍历是 左 中 右，现在左边叶子全部遍历完，这个时候一定是叶子的根
             while(node.right!=null&&node.isThreadedRight==true) {
                 System.out.println(node);
                 node=node.right;

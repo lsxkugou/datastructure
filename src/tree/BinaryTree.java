@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * @Author: longsx
  * @DateTime: 2020/6/13 21:12
- * @Description: 二叉树
+ * @Description: 二叉树+线索化
  */
 public class BinaryTree {
     Node head;
@@ -13,6 +13,69 @@ public class BinaryTree {
      * 查询节点集合
      */
     ArrayList<Node> resultList;
+    /**
+     * 线索二叉树进行遍历
+     */
+    public void scanMiddleOrder(){
+        Node node=head;
+        while(node!=null){
+            //一直遍历 直到找到左树叶子节点
+            while(node.left!=null&&node.isThreadedLeft==false){
+                node=node.left;
+            }
+
+            //按照线索二叉树输出节点，一直到一个非叶子节点，即当前叶子节点的根
+            while(node.right!=null&&node.isThreadedRight==true) {
+                System.out.println(node);
+                node=node.right;
+            }
+            //循环结束后，代表该节点为根节点，这个时候进行输出根节点
+            System.out.println(node);
+            //经过上一个循环，现在的node为根节点，这个时候就要遍历右子树，所以要切换到右边
+            node=node.right;
+
+        }
+    }
+    /**
+     * 按照中序遍历设置线索二叉树
+     * 重载
+     */
+    void ThreadTree(){
+        ThreadTree(head);
+        for(int i=0;i<resultList.size();i++){
+            if(i>0) {
+                if (resultList.get(i).isThreadedLeft == true) {
+                    resultList.get(i).left = resultList.get(i - 1);
+                }
+            }
+            if(i<resultList.size()-1) {
+                if (resultList.get(i).isThreadedRight == true) {
+                    resultList.get(i).right = resultList.get(i + 1);
+                }
+            }
+        }
+    }
+
+    /**
+     * 将所有中序遍历得到的有了顺序的节点存入resultList 并设置左右标记值
+     * @param node 节点
+     */
+    void ThreadTree(Node node){
+        if(node.left!=null){
+            ThreadTree(node.left);
+        }
+        if(node.left==null) {
+            node.isThreadedLeft = true;
+        }
+        resultList.add(node);
+        if(node.right!=null){
+            ThreadTree(node.right);
+        }
+        if(node.right==null) {
+            node.isThreadedRight = true;
+        }
+    }
+
     public BinaryTree(Node head) {
         this.head = head;
         resultList=new ArrayList<Node>();
@@ -79,6 +142,9 @@ class Node{
     String data;
     Node left;
     Node right;
+
+    boolean isThreadedLeft=false;
+    boolean isThreadedRight=false;
 
     public Node(int id, String data) {
         this.id = id;
@@ -162,14 +228,17 @@ class BinaryTreeTest{
         binaryTree.head.left=node2;
         binaryTree.head.right=node3;
         node2.left=node4;
-        node2.right=node6;
-        node4.left=node5;
-        binaryTree.laterOrder();
-        System.out.println("查找实验***************************************************");
-        System.out.println(binaryTree.search(1,"1"));
-        System.out.println("子数删除实验***************************************************");
-        binaryTree.delNode(2);
-        binaryTree.laterOrder();
+        node2.right=node5;
+        node3.left=node6;
+        binaryTree.middleOrder();
+//        System.out.println("查找实验***************************************************");
+//        System.out.println(binaryTree.search(1,"1"));
+//        System.out.println("子数删除实验***************************************************");
+//        binaryTree.delNode(2);
+//        binaryTree.laterOrder();
+        System.out.println("线索二叉树实验，线索化完后不能使用常规遍历方法****************************************************");
+        binaryTree.ThreadTree();
+        binaryTree.scanMiddleOrder();
 
     }
 }

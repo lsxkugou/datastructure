@@ -201,8 +201,8 @@ class HuffmanTreeTest{
         byte[] reading= new byte[1];
         //缓冲区指针
         //read返回的是还有多少个字节剩余，read(xxx)中是放置读取内容存放的位置,read按照缓冲区大小读取最大长度
-        while((length=fileInputStream.read(reading))!=-1){
-            Byte c = reading[0];
+        while(fileInputStream.read(reading)!=-1){
+            byte c = reading[0];
             String decodingText = decodeMap.get(c);
             System.out.printf("%s",decodingText);
         }

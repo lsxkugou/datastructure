@@ -1,11 +1,18 @@
 package tree.usageoftree;
+import java.util.ArrayList;
 
 /**
  * @Author: longsx
  * @DateTime: 2020/6/21 15:43
- * @Description: 二叉排序树 left<middle<right
+ * @Description: 二叉排序树 left<middle<right AVL树
+ *
  */
 public class BinarySortTree {
+    //右调整时的AVL平衡因子 左-右>1
+    final static int BALANCE_FACTOR_RIGHT= 1;
+
+    //左调整时的AVL平衡因子 左-右<-1
+    final static int BALANCE_FACTOR_LEFT = -1;
 
     BstNode head;
     public void preOrder(){
@@ -19,11 +26,31 @@ public class BinarySortTree {
     }
     public void add(BstNode bstNode){
         head.add(bstNode);
+        //进行AVL调整
+        avl();
+    }
+    private void avl(){
+        if(head.left!=null&&head.right!=null){
+            //左-右>BALANCE_FACTOR_RIGHT 进行右旋转
+            if(BstNode.height(head.left)-BstNode.height(head.right)>BALANCE_FACTOR_RIGHT){
+                head.rightRotate();
+            }
+            //左-右<BALANCE_FACTOR_LEFT 进行左旋转
+            if(BstNode.height(head.left)-BstNode.height(head.right)<BALANCE_FACTOR_LEFT){
+                head.leftRotate();
+            }
+        }
     }
     public BstNode[] searchOne(int searchValue){
         BstNode[] bstNodes = new BstNode[2];
         return head.searchOne(head,searchValue,bstNodes);
     }
+
+    /**
+     * AVL平衡二叉树调整
+     */
+    public void AVL(){}
+
     /**
      * 删除节点
      * 分为三种情况
@@ -143,9 +170,40 @@ class BstNode implements Comparable<BstNode>{
     }
 
     /**
-     * 中序遍历 在bst树中也就是从大到小遍历
-     * @param bstNode 节点
+     * 左旋转方法
      */
+    void leftRotate() {
+    //创建新的结点，以当前根结点的值
+        BstNode newNode = new BstNode(value);
+    //把新的结点的左子树设置成当前结点的左子树
+        newNode.left = left;
+    //把新的结点的右子树设置成带你过去结点的右子树的左子树
+        newNode.right = right.left;
+    //把当前结点的值替换成右子结点的值
+        value = right.value;
+    //把当前结点的右子树设置成当前结点右子树的右子树
+        right = right.right;
+    //把当前结点的左子树(左子结点)设置成新的结点
+        left = newNode;
+    }
+
+    /**
+     * 右旋转方法
+     */
+     void rightRotate() {
+        BstNode newNode = new BstNode(value);
+        newNode.right = right;
+        newNode.left = left.right;
+        value = left. value;
+        left = left.left;
+        right = newNode;
+    }
+
+
+    /**
+         * 中序遍历 在bst树中也就是从大到小遍历
+         * @param bstNode 节点
+         */
     void middleOrder(BstNode bstNode){
         if(this.left!=null){
             this.left.middleOrder(this.left);
@@ -183,14 +241,64 @@ class BstNode implements Comparable<BstNode>{
         }
         return bstNodes;
     }
+
+
+    /**
+     * 返回以该节点为根节点树的高度
+     * @param bstNode 节点
+     * @return 树高
+     */
+    static int height(BstNode bstNode){
+        int height = 0;
+        ArrayList<Integer> max = new ArrayList<Integer>();
+        max = heightTree(max,bstNode,height);
+        //初始化maxHeight
+        int maxHeight = max.get(0) ;
+        for (Integer h : max) {
+            if(maxHeight<=h){
+                maxHeight = h;
+            }
+        }
+        return maxHeight++;
+    }
+
+    /**
+     * 左子树高度
+     * @param max 存放所有叶子节点的高度
+     * @param bstNode 节点
+     * @param height 高度
+     * @return 高度
+     */
+    private static ArrayList<Integer> heightTree(ArrayList<Integer> max,BstNode bstNode,int height){
+       //若为叶子节点，则计入数组中
+        if(bstNode.right==null&&bstNode.left==null){
+            max.add(height);
+            //记录叶子节点高度后清除height
+            height = 0;
+        }
+        //向左递归
+        if(bstNode.left!=null){
+            height++;
+            heightTree(max,bstNode.left,height);
+        }
+        //向右递归
+        if(bstNode.right!=null){
+            height++;
+            heightTree(max,bstNode.right,height);
+        }
+        return max;
+    }
+
+
 }
 class BinarySortTreeTest{
     public static void main(String[] args) {
-        //测试 5 6 4 8 2
+        //测试 6,4,8,2,7
         BinarySortTree binarySortTree = new BinarySortTree(new BstNode(5));
         binarySortTree.add(new BstNode(6));
         binarySortTree.add(new BstNode(4));
-        binarySortTree.add(new BstNode(8));
+        BstNode bstNode8 = new BstNode(8);
+        binarySortTree.add(bstNode8);
         binarySortTree.add(new BstNode(2));
         binarySortTree.add(new BstNode(7));
         binarySortTree.preOrder();
@@ -202,6 +310,11 @@ class BinarySortTreeTest{
         System.out.println("删除叶子节点7之后进行中序从大到小遍历***************************");
         binarySortTree.deleteNode(7);
         binarySortTree.middleOrder();
+        binarySortTree.add(new BstNode(7));
+        BstNode node9 = new BstNode(9);
+        binarySortTree.add(node9);
+        System.out.println(BstNode.height(bstNode8));
+
 
     }
 }
